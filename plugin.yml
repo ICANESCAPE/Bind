@@ -1,0 +1,5 @@
+name: Bind
+main: me.alchemy.bind.Bind
+version: 1.0
+commands:
+  bind:

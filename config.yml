@@ -1,0 +1,54 @@
+#绑定前的Lore
+Before: "使用后绑定"
+
+#绑定后Lore
+After: "已绑定: %player%"
+
+#解绑物品
+Item:
+  id: DIAMOND_SWORD
+  dur: 0
+  display: "&c钻石剑"
+  lore:
+    - "&a放入解绑界面使用"
+  ItemFlags: [HIDE_UNBREAKABLE]
+  unbreak: true
+
+#Gui设置
+Gui:
+  title: "&d装备解绑"
+  size: 54
+  #确认图标
+  confirm:
+    id: DIAMOND_SWORD
+    dur: 0
+    display: "&确认解绑"
+    lore:
+      - "&a点击后确认解绑"
+    ItemFlags: [HIDE_UNBREAKABLE]
+    unbreak: true
+  #确认图标的位置
+  confirmslot: 28
+  #放入物品的位置
+  itemslot: 10
+  #解绑符放入的位置
+  usageslot: 15
+  #装饰方块的位置
+  blank:
+    id: DIAMOND_SWORD
+#    dur: 0
+    display: "&c装饰方块"
+    lore:
+      - "&a没啥用"
+    ItemFlags: [HIDE_UNBREAKABLE]
+    unbreak: true
+
+#禁止的指令
+BanCommands:
+  - market
+
+#权限
+Permissions:
+  1:
+    lore: "&c第一条lore"
+    permission: "bind.use.lore1"
