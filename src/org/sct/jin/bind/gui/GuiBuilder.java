@@ -1,14 +1,14 @@
-package me.alchemy.bind.gui;
+package org.sct.jin.bind.gui;
 
-import me.alchemy.bind.cache.ItemCache;
-import me.alchemy.bind.file.Config;
-import me.alchemy.bind.util.BasicUtil;
+import org.sct.jin.bind.cache.ItemCache;
+import org.sct.jin.bind.file.Config;
+import org.sct.jin.bind.util.BasicUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 13:42
  */
 

@@ -1,6 +1,5 @@
-package me.alchemy.bind.util;
+package org.sct.jin.bind.util;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;

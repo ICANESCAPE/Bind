@@ -1,14 +1,15 @@
-package me.alchemy.bind;
+package org.sct.jin.bind;
 
-import me.alchemy.bind.command.BindCommand;
-import me.alchemy.bind.file.Config;
-import me.alchemy.bind.listener.Listener;
-import me.alchemy.bind.util.BasicUtil;
+import org.sct.jin.bind.command.BindCommand;
+import org.sct.jin.bind.file.Config;
+import org.sct.jin.bind.listener.Listener;
+import org.sct.jin.bind.util.BasicUtil;
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 12:47
  */
 

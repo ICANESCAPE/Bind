@@ -1,7 +1,7 @@
-package me.alchemy.bind.util;
+package org.sct.jin.bind.util;
 
-import me.alchemy.bind.cache.ItemCache;
-import me.alchemy.bind.file.Config;
+import org.sct.jin.bind.cache.ItemCache;
+import org.sct.jin.bind.file.Config;
 
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -10,7 +10,7 @@ import org.bukkit.inventory.PlayerInventory;
 import java.util.List;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 12:50
  */
 

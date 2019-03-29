@@ -1,4 +1,4 @@
-package me.alchemy.bind.util;
+package org.sct.jin.bind.util;
 
 import org.bukkit.ChatColor;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 12:48
  */
 

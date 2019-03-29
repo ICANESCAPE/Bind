@@ -1,7 +1,7 @@
-package me.alchemy.bind.file;
+package org.sct.jin.bind.file;
 
-import me.alchemy.bind.Bind;
-import me.alchemy.bind.util.BasicUtil;
+import org.sct.jin.bind.Bind;
+import org.sct.jin.bind.util.BasicUtil;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 
@@ -10,7 +10,7 @@ import java.util.Map;
 
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 12:51
  */
 

@@ -1,10 +1,10 @@
-package me.alchemy.bind.command;
+package org.sct.jin.bind.command;
 
-import me.alchemy.bind.Bind;
-import me.alchemy.bind.cache.ItemCache;
-import me.alchemy.bind.file.Config;
-import me.alchemy.bind.gui.GuiBuilder;
-import me.alchemy.bind.util.BasicUtil;
+import org.sct.jin.bind.Bind;
+import org.sct.jin.bind.cache.ItemCache;
+import org.sct.jin.bind.file.Config;
+import org.sct.jin.bind.gui.GuiBuilder;
+import org.sct.jin.bind.util.BasicUtil;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -14,7 +14,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 13:37
  */
 public class BindCommand implements CommandExecutor {

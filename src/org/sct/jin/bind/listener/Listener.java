@@ -1,9 +1,9 @@
-package me.alchemy.bind.listener;
+package org.sct.jin.bind.listener;
 
-import me.alchemy.bind.cache.ItemCache;
-import me.alchemy.bind.file.Config;
-import me.alchemy.bind.util.BasicUtil;
-import me.alchemy.bind.util.BindUtil;
+import org.sct.jin.bind.cache.ItemCache;
+import org.sct.jin.bind.file.Config;
+import org.sct.jin.bind.util.BasicUtil;
+import org.sct.jin.bind.util.BindUtil;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -18,7 +18,7 @@ import org.bukkit.inventory.ItemStack;
 import java.util.List;
 
 /**
- * @author SCT_Alchemy
+ * @author SCT_jin
  * @date 2019-03-27 13:09
  */
 public class Listener implements org.bukkit.event.Listener {
