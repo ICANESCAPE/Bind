@@ -103,10 +103,10 @@ public class Listener implements org.bukkit.event.Listener {
             e.setCancelled(true);
             player.sendMessage(BasicUtil.convert("&c你手里这件物品的所有人不是你"));
         }
-    /*    if (!BindUtil.checkPermission(item, player)) {
+       if (!BindUtil.checkPermission(item, player)) {
             e.setCancelled(true);
             player.sendMessage(BasicUtil.convert("&c你没有权限使用这个道具"));
-        }*/
+        }
     }
 
 }

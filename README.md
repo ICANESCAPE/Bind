@@ -8,7 +8,9 @@
 > 指令 
 
 /bind open 打开解绑界面
-/bind give <player> 给指定玩家发送一个解绑物品
+
+/bind give 玩家 给指定玩家发送一个解绑物品
+
 /bind reload 重载配置文件
 
 *******
