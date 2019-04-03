@@ -47,5 +47,5 @@ Gui:
 BanCommands:
   - market
 
-#权限
+#如果有这条权限，切换到未绑定物品的时候自动绑定
 Permission: "bind.auto.true"
