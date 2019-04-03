@@ -1,5 +1,6 @@
 package org.sct.jin.bind.util;
 
+import org.sct.jin.bind.Bind;
 import org.sct.jin.bind.cache.ItemCache;
 import org.sct.jin.bind.file.Config;
 
@@ -85,15 +86,7 @@ public class BindUtil {
         return false;
     }
 
-    public static boolean checkPermission(ItemStack item, Player player) {
-        if (item == null || !item.hasItemMeta()) {
-            return false;
-        }
-        for (String lore : item.getItemMeta().getLore()) {
-           if (Config.getPermission(lore) != null) {
-               return player.hasPermission(Config.getPermission(lore));
-           }
-        }
-        return false;
+    public static boolean checkPermission(Player player) {
+        return player.hasPermission(Bind.getInstance().getConfig().getString("Permissions"));
     }
 }

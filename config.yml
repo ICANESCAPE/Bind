@@ -48,7 +48,4 @@ BanCommands:
   - market
 
 #权限
-Permissions:
-  1:
-    lore: "&c第一条lore"
-    permission: "bind.use.lore1"
+Permission: "bind.auto.true"
